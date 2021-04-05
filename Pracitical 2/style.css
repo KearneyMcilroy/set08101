@@ -1,7 +1,7 @@
-body {
+/*body {
   font-family: "Lato", sans-serif;
 }
-
+*/
 .sidenav {
   height: 100%;
   width: 0;
@@ -42,4 +42,16 @@ body {
   .sidenav a {font-size: 18px;}
  
 
+}
+.menutag {
+	
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.jumbotron {
+	background-image: url("anna-gru-omL9Q8B2YCI-unsplash.jpg");
+	color: #FFFFFF
 }

@@ -7,16 +7,19 @@
 <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="../Pracitical 2/main.js"></script>
 <link rel="stylesheet" href="../Pracitical 2/style.css">
-<audio autoplay loop>
+<audio id="musicLoop" autoplay loop>
 	<source src="alexander-nakarada-medieval-loop-one.mp3">
 	</audio>
 </head>
 <body>
+<script>
+window.onload=audioVol()	
+</script>
 <div id="mySidenav" class="sidenav"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <a href="#">About</a> <a href="#">Play Game</a> </div>
 <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="col-sm-1">&#9776; open</span>
 <div class="text-left col-lg-11">
 
-  <h1>Choose Your own Adventure Game - SET08101 <button onClick="playPauseBtnToggle()">Toggle Music</button></h1>
+  <h1>Choose Your own Adventure Game - SET08101</h1>
   <p>During the first part of this assignment we were asked to plan a website for the "Web Technologies" module. </p>
   <hr>
   <div class="jumbotron">

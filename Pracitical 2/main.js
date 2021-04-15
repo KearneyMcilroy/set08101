@@ -5,7 +5,26 @@ function openNav() {
   document.getElementById("mySidenav").style.width = "170px";
 }
 
-function volume() {
-	var audio = document.getElementById("alexander-nakarada-medieval-loop-one.mp3");
-	audio.volume = 0.2;
-}
+function audioVol() {
+
+	var audio = document.getElementById("musicLoop");
+	audio.volume = 0.03
+
+}	
+
+function toggleMusic() {
+
+	var myAudio = document.getElementById("musicLoop");
+	var isPlaying = false;
+
+	function togglePlay() {
+	  isPlaying ? myAudio.pause() : myAudio.play();
+	};
+
+	myAudio.onplaying = function() {
+	  isPlaying = true;
+	};
+	myAudio.onpause = function() {
+	  isPlaying = false;
+	};
+	}

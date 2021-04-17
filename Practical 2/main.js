@@ -12,11 +12,3 @@ function audioVol() {
 
 }	
 
-function Tavern() {
-	document.getElementById("storytext").innerHTML = "On entering the tavern every soul inside turns and stares at you what do you wish to do?";
-	document.getElementById("mainimage").src = "Images/tavernstaring.jpg";
-	var button = document.getElementById('button1')
-	button.textContent = 'Sp';
-	var linkone = document.getElementById('link1')
-	linkone.href="https://moodle.napier.ac.uk/my/"
-	}

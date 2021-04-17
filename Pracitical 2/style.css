@@ -1,6 +1,6 @@
-body {
+/*body {
   font-family: "Lato", sans-serif;
-}
+}*/
 
 .sidenav {
   height: 100%;
@@ -72,4 +72,47 @@ body {
 	vertical-align: middle;
 	line-height: 90px;
 	height: auto;
+}
+
+.img-fluid {
+	width: 40%;
+	height: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	object-fit: cover;
+	opacity: 1;
+	-webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3 ease-in-out;
+	
+}
+
+fade {
+	width: 40%;
+	height: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	object-fit: cover;
+	-webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3 ease-in-out;
+}
+.gametext {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;
+	height: auto;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.btn-primary {
+	margin: 0 auto;
+	display:block;
+	width: 20%;
+	margin-top: 20px;
 }

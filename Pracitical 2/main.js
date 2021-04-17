@@ -11,20 +11,8 @@ function audioVol() {
 	audio.volume = 0.03
 
 }	
-
-function toggleMusic() {
-
-	var myAudio = document.getElementById("musicLoop");
-	var isPlaying = false;
-
-	function togglePlay() {
-	  isPlaying ? myAudio.pause() : myAudio.play();
-	};
-
-	myAudio.onplaying = function() {
-	  isPlaying = true;
-	};
-	myAudio.onpause = function() {
-	  isPlaying = false;
-	};
-	}
+setTimeout(fadeOut, 3000);
+function fadeOut () {
+	document.getElementById('mainimage').className = "fade";
+	alert("test")
+}

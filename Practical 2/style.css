@@ -52,7 +52,7 @@ body {
 }
 
 .jumbotron {
-	background-image: url("anna-gru-omL9Q8B2YCI-unsplash.jpg");
+	background-image: url("Images/anna-gru-omL9Q8B2YCI-unsplash.jpg");
 	color: #FFFFFF
 }
 
@@ -125,4 +125,14 @@ fade {
 
 }
 .buttoncont {
+}
+#btn1 {
+}
+#btn2 {
+}
+.button1 {
+}
+#button2 {
+}
+#button3 {
 }

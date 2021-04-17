@@ -106,17 +106,9 @@ body {
 
 .btn {
 	display:inline-block;
+	background-color: #98090B
+}
 
-}
-.buttoncont {
-}
-#btn1 {
-}
-#btn2 {
-}
-.button1 {
-}
-#button2 {
-}
-#button3 {
+.btn:hover {
+	background-color: #98090B
 }

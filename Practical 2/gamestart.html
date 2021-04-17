@@ -8,7 +8,7 @@
 <script src="../Pracitical 2/main.js"></script>
 <link rel="stylesheet" href="../Pracitical 2/style.css">
 <audio id="musicLoop" autoplay loop>
-  <source src="alexander-nakarada-medieval-loop-one.mp3">
+  <source src="../Pracitical 2/alexander-nakarada-medieval-loop-one.mp3">
 </audio>
 </head>
 <body>
@@ -20,11 +20,13 @@ window.onload0=audioVol()
 <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="col-sm-1">&#9776; open</span>
 <div class="text-left col-lg-11">
   <h1>Game_Start</h1>
-  <p class="maintext">You approach the local tavern after a long day</p>
-  <div1>
-  <img src="tavernoutside.jpg" class="img-fluid" id="mainimage" alt="Responsive image">
-  </div1>
-  <button type="button" class="btn btn-primary" id="fadeOut" onclick="fadeOut()">Play</button>
+  <p class="maintext">After a hard day of fighting monsters you finally make it back to the local town what do you wish to do?</p>
+  
+  <img src="../Pracitical 2/tavernoutside.jpg" class="img-fluid" id="mainimage" alt="Responsive image">
+  <div class="buttoncont">
+  <button type="button" class="btn btn-primary" onclick="fadeOut()">Enter Tavern</button>
+  <button type="button" class="btn btn-primary" onclick="fadeOut()">Go to sleep</button>
+  </div>
 </div>
 <footer class="footer">
   <div class="container  footer-text"> <span>Place sticky footer content here.</span> </div>

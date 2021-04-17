@@ -11,8 +11,3 @@ function audioVol() {
 	audio.volume = 0.03
 
 }	
-setTimeout(fadeOut, 3000);
-function fadeOut () {
-	document.getElementById('mainimage').className = "fade";
-	alert("test")
-}

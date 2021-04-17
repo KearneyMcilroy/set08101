@@ -17,5 +17,6 @@ function Tavern() {
 	document.getElementById("mainimage").src = "Images/tavernstaring.jpg";
 	var button = document.getElementById('button1')
 	button.textContent = 'Sp';
-	document.getElementById("link1").href = "https://www.google.com/";
+	var linkone = document.getElementById('link1')
+	linkone.href="https://moodle.napier.ac.uk/my/"
 	}

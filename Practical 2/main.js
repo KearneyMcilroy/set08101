@@ -12,3 +12,14 @@ function audioVol() {
 
 }	
 
+function clickFunction() {
+        var input = document.getElementById('userInput').value;
+        input = input.toLowerCase();
+
+        if (input.length <= 1) {
+            alert('hello');
+        } else {
+           // won't do anything
+            return false;
+        }
+    }    

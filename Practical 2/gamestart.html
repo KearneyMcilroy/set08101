@@ -15,6 +15,7 @@
 <script>
 //load audio
 window.onload0=audioVol()
+var f = document.querySelector('#signup');
 	
 
 </script>
@@ -23,8 +24,9 @@ window.onload0=audioVol()
 <div class="text-left col-lg-11">
   <h1>Game_Start</h1>
   <p class="maintext" id="storytext">After a hard day of fighting monsters you finally make it back to the local town what do you wish to do?</p>
-  <form>
-	<input name="userinput" type="search" required id="userInput" />
+  <form name="form" method="GET">
+	<input type="text" id="userInput" required placeholder="NAME">
+	<input type="submit" value="Submit" onclick="saveName()">
   </form>
  	
   <img src="Images/tavernoutside.jpg" class="img-fluid" id="mainimage" alt="Responsive image">

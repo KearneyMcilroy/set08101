@@ -10,16 +10,10 @@ function audioVol() {
 	var audio = document.getElementById("musicLoop");
 	audio.volume = 0.03
 
-}	
+}
 
-function clickFunction() {
-        var input = document.getElementById('userInput').value;
-        input = input.toLowerCase();
-
-        if (input.length <= 1) {
-            alert('hello');
-        } else {
-           // won't do anything
-            return false;
-        }
-    }    
+function saveName() {
+	var input = document.getElementById("userInput").value;
+	localStorage.setItem('userInput', input);
+	document.body.innerHTML = document.body.innerHTML.replace
+}

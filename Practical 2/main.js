@@ -14,7 +14,17 @@ function audioVol() {
 }
 
 function saveName() {
-	var input = document.getElementById("userInput").value;
-	localStorage.setItem('userInput', input);
-	document.body.innerHTML = document.body.innerHTML.replace
+	
+		var input = document.getElementById("userInput").value;
+		localStorage.setItem('userInput', input);
+		console.log("NAME SAVED: ", input);
+	
+	if(localStorage.getItem('userInput') != null) {
+		
+		document.getElementById('userInput').style.visibility = "hidden";
+		document.getElementById('sub').style.visibility = "hidden";
+		document.getElementById('playerName').innerHTML = input + "?";
+
+
+	}
 }

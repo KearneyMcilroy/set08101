@@ -15,25 +15,24 @@
 <script>
 //load audio
 window.onload0=audioVol()
-var f = document.querySelector('#signup');
-	
 
 </script>
+
 <div id="mySidenav" class="sidenav"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <a href="#">About</a> <a href="./index.html">Home</a> </div>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()" class="col-sm-1">&#9776; open</span>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()" class="col-sm-1"> open</span>
 <div class="text-left col-lg-11">
   <h1>Game_Start</h1>
-  <p class="maintext" id="storytext">After a hard day of fighting monsters you finally make it back to the local town what do you wish to do?</p>
+  <p class="maintext" id="storytext">It is 1533 and you have just finished a day of slaying monsters as you are freelance knight. You enter a small town looking for refuge after a long day what would you like to do <span id="playerName"></span></p>
   <form name="form" method="GET">
 	<input type="text" id="userInput" required placeholder="NAME">
-	<input type="submit" value="Submit" onclick="saveName()">
+    <button type="button" id="sub" onclick="saveName()">Submit</button>
   </form>
-  <div class="text-center"">
+  <div class="text-center">
 	  <img src="Images/tavernoutside.jpg" alt="..." class="rounded mx-auto d-block" id="mainimage">
 	</div>
   <div class="buttoncont">
-	  <a href="https://kearneymcilroy.github.io/set08101/Practical%202/tavernpath1.html" class="btn btn-primary">Enter Tavern</a>
-	  <a href="https://kearneymcilroy.github.io/set08101/Practical%202/tavernpath2.html" class="btn btn-primary">Go to sleep</a>
+	  <a href="tavernpath1.html" class="btn btn-primary">Enter Tavern</a>
+	  <a href="https://kearneymcilroy.github.io/set08101/Practical%202/tavernpath2.html" class="btn btn-primary">Kill More Monsters</a>
   </div>
 </div>
 <footer class="footer">

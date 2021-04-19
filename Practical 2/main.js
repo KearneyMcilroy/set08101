@@ -19,11 +19,11 @@ function saveName() {
 		localStorage.setItem('userInput', input);
 		console.log("NAME SAVED: ", input);
 	
-	if(localStorage.getItem('userInput') != null) {
+		if(localStorage.getItem('userInput') != null) {
 		
-		document.getElementById('userInput').style.visibility = "hidden";
-		document.getElementById('sub').style.visibility = "hidden";
-		document.getElementById('playerName').innerHTML = input + "?";
+			document.getElementById('userInput').style.visibility = "hidden";
+			document.getElementById('sub').style.visibility = "hidden";
+			document.getElementById('playerName').innerHTML = input + "?";
 
 
 	}

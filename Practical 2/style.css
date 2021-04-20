@@ -123,3 +123,9 @@ height: 500px;
 .maintext {
 	font-size: 20px;
 }
+
+.maintextdeath {
+	color: red;
+	font-size: 50px;
+	text-align-last: center;
+}

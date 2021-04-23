@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script> 
+<script src="../Practical 2/main.js"></script>
+<link rel="stylesheet" href="../Practical 2/style.css">
+<audio id="musicLoop" autoplay loop>
+  <source src="Music/eerie_cave_ambience_background_effect_-8482248459194441645.mp3">
+</audio>
+</head>
+<body>
+<script>
+//load audio
+window.onload=audioVol()
+</script>
+<div id="mySidenav" class="sidenav"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <a href="#">About</a> <a href="./index.html">Home</a> </div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()" class="col-sm-1">&#9776; open</span>
+<div class="text-left col-lg-11">
+  <p class="maintext" id="storytext">On entering the mysterious cave you come to a standstill when you are presented with two different paths. A putrid smell is coming from the left tunnel. What would you like to do?</p>
+  
+  <img src="Images/cavepath.JPG" class="img-fluid" id="mainimage" alt="Responsive image">
+  <div class="buttoncont">
+	  <a href="https://kearneymcilroy.github.io/set08101/Practical%202/cavepath1a.html" class="btn btn-primary">Left</a>
+	  <a href="https://kearneymcilroy.github.io/set08101/Practical%202/cavepath1b.html" class="btn btn-primary">Right</a>
+
+
+	 
+  </div>
+</div>
+<footer class="footer">
+  <div class="container  footer-text"> <span>Place sticky footer content here.</span> </div>
+</footer>
+</body>
+</html>

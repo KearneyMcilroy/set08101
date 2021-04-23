@@ -9,7 +9,7 @@ function openNav() {
 function audioVol() {
 
 	var audio = document.getElementById("musicLoop");
-	audio.volume = 0.03
+	audio.volume = 0.2
 
 }
 

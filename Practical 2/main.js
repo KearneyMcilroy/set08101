@@ -28,3 +28,8 @@ function saveName() {
 
 	}
 }
+
+function getName() {
+	document.getElementById("playerName").innerHTML = localStorage.getItem("input");
+	alert("HELLO")
+}

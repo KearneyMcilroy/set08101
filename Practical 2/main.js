@@ -9,7 +9,7 @@ function openNav() {
 function audioVol() {
 
 	var audio = document.getElementById("musicLoop");
-	audio.volume = 0.2
+	audio.volume = 0.02
 
 }
 
@@ -29,7 +29,18 @@ function saveName() {
 	}
 }
 
-function name() {
-	document.getElementById('playerName').innerHTML = localStorage.getItem("userInput");
-	console.log("TEST")
+
+function bossText() {
+	
+	document.getElementById("storytext").innerHTML = 'The sorcerer says "I am making an undead army to destroy the world. However it doesnt matter for you. I am going to kill you myself." What do you want to do?';
+	document.getElementById("hidden").classList.remove('invisible')
+	document.getElementsById("visbtn").innerHTML = "Swing your sword"
+	document.getElementById("visbtn").setAttribute('onclick', 'changeHref()')
+}
+
+function changeHREF() {
+	
+	document.getElementById("hidden").href = "https://kearneymcilroy.github.io/set08101/Practical%202/finalswordswing.html"
+	d
+	document.getElementById("visbtn").href = "https://kearneymcilroy.github.io/set08101/Practical%202/finalrunback.html"
 }

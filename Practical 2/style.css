@@ -39,12 +39,7 @@ body {
   margin-left: 50px;
 }
 
-/*@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
- */
 
-}
 .menutag {
 	
 	overflow: hidden;
@@ -88,7 +83,7 @@ body {
 	
 }
 
-}
+
 .gametext {
 	text-align: center;
 	vertical-align: middle;
@@ -129,3 +124,5 @@ height: 500px;
 	font-size: 50px;
 	text-align-last: center;
 }
+
+

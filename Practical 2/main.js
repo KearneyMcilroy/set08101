@@ -30,6 +30,8 @@ function saveName() {
 }
 
 function getName() {
-	document.getElementById("playerName").innerHTML = localStorage.getItem("input");
-	alert("HELLO")
+		console.log("TEST")
+
+	document.getElementById("playerName").innerHTML = localStorage.getItem('userInput')
+
 }

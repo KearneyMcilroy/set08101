@@ -29,9 +29,7 @@ function saveName() {
 	}
 }
 
-function getName() {
-		console.log("TEST")
-
-	document.getElementById("playerName").innerHTML = localStorage.getItem('userInput')
-
+function name() {
+	document.getElementById('playerName').innerHTML = localStorage.getItem("userInput");
+	console.log("TEST")
 }

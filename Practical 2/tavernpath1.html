@@ -14,13 +14,13 @@
 <body>
 <script>
 //load audio
-window.onload0=audioVol();
+window.onload0=audioVol();setName();
 </script>
 <script type="text/javascript">
-window.onload=setName() {
-	var pName = localstorage.getItem('userInput');
-	console.log(pName + "localstorage")
-	document.getElementById('playername').innerHTML = pName;
+function setName() {
+	var myContent = localStorage.getItem("userInput");
+	console.log("TEST")
+	document.getElementById("userInput").value = myContent;
 }	
 
 </script>

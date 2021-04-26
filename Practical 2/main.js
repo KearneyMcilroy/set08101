@@ -32,7 +32,7 @@ function saveName() {
 
 function bossText() {
 	
-	document.getElementById("storytext").innerHTML = 'The sorcerer says "I am making an undead army to destroy the world. However it doesnt matter for you. I am going to kill you myself." What do you want to do?';
+	document.getElementById("storytext").innerHTML = ' I am making an undead army to destroy the world. However it doesnt matter for you. I am going to kill you myself." What do you want to do?';
 	document.getElementById("hidden").classList.remove('invisible')
 	document.getElementById("visbtn").innerHTML = "Swing your sword"
 	document.getElementById("visbtn").onclick = changeHREF;

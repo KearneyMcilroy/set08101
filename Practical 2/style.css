@@ -144,5 +144,9 @@ height: 500px;
 }
 #startText {
 	font-size: 20px;
-}#startText {
+}
+#flowchart {
+	margin-right: auto;
+	margin-left: auto;
+	
 }

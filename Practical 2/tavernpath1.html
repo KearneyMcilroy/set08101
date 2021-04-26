@@ -12,16 +12,9 @@
 </audio>
 </head>
 <body>
-<script>
-//load audio
-window.onload0=audioVol();setName();
-</script>
+
 <script type="text/javascript">
-function setName() {
-	var myContent = localStorage.getItem("userInput");
-	console.log("TEST")
-	document.getElementById("userInput").value = myContent;
-}	
+
 
 </script>
 <div id="mySidenav" class="sidenav"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <a href="#">About</a> <a href="./index.html">Home</a> </div>
@@ -39,5 +32,14 @@ function setName() {
 <footer class="footer">
   <div class="container  footer-text"> <span>Place sticky footer content here.</span> </div>
 </footer>
+<script>
+//load audio
+document.onload0=audioVol(); setName();
+var myContent = localStorage.getItem("userInput");
+function setName() {
+	console.log("TEST")
+	document.getElementById("playername").value = myContent;
+}	
+</script>	
 </body>
 </html>

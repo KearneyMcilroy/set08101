@@ -44,3 +44,8 @@ function changeHREF() {
 	document.getElementById("hidden").href = "https://kearneymcilroy.github.io/set08101/Practical%202/finalrunback.html";
 	
 }
+
+function setName() {
+	console.log("TEST")
+	document.getElementById("playerName").innerHTML = localStorage.getItem('userInput');
+}

@@ -14,13 +14,21 @@
 <body>
 <script>
 //load audio
-window.onload0=audioVol();setName();
+window.onload0=audioVol();
+</script>
+<script type="text/javascript">
+window.onload=setName() {
+	var pName = localstorage.getItem('userInput');
+	console.log(pName + "localstorage")
+	document.getElementById('playername').innerHTML = pName;
+}	
+
 </script>
 <div id="mySidenav" class="sidenav"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <a href="#">About</a> <a href="./index.html">Home</a> </div>
 <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="col-sm-1">&#9776; open</span>
 <div class="text-left col-lg-11">
   <h1>Game_Start</h1>
-  <p class="maintext" id="storytext">On enetering the tavern for some needed relaxation you notice that the atmosphere comes to a standstill. You notice yourself being stared at what would you like to do?<span id="playerName"></span></p>
+  <p class="maintext" id="storytext">On enetering the tavern for some needed relaxation you notice that the atmosphere comes to a standstill. You notice yourself being stared at what would you like to do?<span id="playername"> </span></p>
   
   <img src="Images/tavernstaring.jpg" class="img-fluid" id="mainimage" alt="Responsive image">
   <div class="buttoncont">

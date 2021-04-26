@@ -45,7 +45,4 @@ function changeHREF() {
 	
 }
 
-function setName() {
-	console.log("TEST")
-	document.getElementById("playerName").innerHTML = localStorage.getItem('userInput');
-}
+

@@ -12,15 +12,13 @@
 </audio>
 </head>
 <body>
-<script>
-window.onload0=audioVol()
-</script>
+
 <div id="mySidenav" class="sidenav"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <a href="#">About</a> <a href="./index.html">Home</a> </div>
 <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="col-sm-1">&#9776; open</span>
 <div class="text-left col-lg-11">
-  <p class="maintext" id="storytext">As you venture towards the large explosion you see a man standing above a cauldron practicing dark magic. He turns to you and shrieks cowardly, he says "How did you find me? I thought I had you taken care of.</p>
-  
-  <img src="Images/cave_wizard.jpg"
+  <p class="maintext" id="storytext">As you venture towards the large explosion you see a man standing above a cauldron practicing dark magic. He turns to you and shrieks cowardly, he says "How did you find me? I thought I had you taken care of.<span id="playername"> </span></p>
+
+<img src="Images/cave_wizard.jpg"
 	   class="img-fluid" id="mainimage" alt="Responsive image">
   <div class="buttoncont">
 	  <a href="#" class="btn btn-primary" id="visbtn" onClick="bossText()">Swing your sword</a>
@@ -36,5 +34,11 @@ window.onload0=audioVol()
 <footer class="footer">
   <div class="container  footer-text"> <span>Place sticky footer content here.</span> </div>
 </footer>
+<script>
+//load audio
+
+
+document.onload0=audioVol();name();
+</script>	
 </body>
 </html>

@@ -45,4 +45,9 @@ function changeHREF() {
 	
 }
 
+var myContent = localStorage.getItem("userInput");
+function name() {
+	console.log("TEST" + myContent)
+	document.getElementById("playername").innerHTML = " " + myContent;
+}
 
